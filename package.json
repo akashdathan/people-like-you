@@ -1,0 +1,38 @@
+{
+  "name": "people-like-you",
+  "version": "1.0.0",
+  "description": "People Like You Server",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node build/index.js",
+    "start-dev": "babel-watch src",
+    "build": "babel src --out-dir build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/akashdathan/people-like-you.git"
+  },
+  "author": "Akash Dathan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/akashdathan/people-like-you/issues"
+  },
+  "homepage": "https://github.com/akashdathan/people-like-you#readme",
+  "dependencies": {
+    "@babel/polyfill": "^7.6.0",
+    "core-js": "^3.2.1",
+    "csv-parser": "^2.3.0",
+    "express": "^4.17.1",
+    "express-validator": "^6.2.0",
+    "lodash": "^4.17.15",
+    "regenerator-runtime": "^0.13.3"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.6.0",
+    "@babel/core": "^7.6.0",
+    "@babel/plugin-proposal-class-properties": "^7.5.5",
+    "@babel/preset-env": "^7.6.0",
+    "babel-watch": "^7.0.0"
+  }
+}
